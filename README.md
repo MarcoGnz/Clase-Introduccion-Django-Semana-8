@@ -53,7 +53,7 @@ urlpatterns = [
 ]
 ```
 
-## 6. Mostrar "Hola Mundo" con HttpRequest (5 min)
+## 6. Mostrar "Hola Mundo" con HttpResponse (5 min)
 Crea una vista básica en `views.py`:
 ```python
 from django.http import HttpResponse
@@ -68,6 +68,8 @@ MTV es el patrón de diseño utilizado por Django:
 - **Modelo (Model)**: Maneja operaciones de base de datos y cálculos de datos.
 - **Plantilla (Template)**: Genera la salida HTML que ve el usuario.
 - **Vista (View)**: Actúa como intermediario entre el Modelo y la Plantilla.
+  
+https://diveintocode.gyazo.com/92a343b9359781e31388568dc58704e7
 
 ## 8. Conexión a una Base de Datos PostgreSQL (10 min)
 Configura la base de datos en `settings.py`:
@@ -108,11 +110,16 @@ python manage.py migrate
 
 ## 9. CRUD (Create, Read, Update, Delete) (10 min)
 Breve explicación de cada operación. Agrega la aplicación en `INSTALLED_APPS`.
-
+```
+INSTALLED_APPS = [
+    ...
+    'nombre_de_la_aplicacion',
+]
+```
 ## 10. Superusuario y Administrador de Páginas (5 min)
 Crea un superusuario con:
 ```
 python manage.py createsuperuser
 ```
 Utiliza el panel de administración para gestionar tus páginas.
-```
+
