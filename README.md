@@ -1,7 +1,11 @@
-# ClaseDjango
+# Clase Introducción Django
 
 ## 1. ¿Qué es Django? (5 min)
 Django es un framework web de alto nivel basado en Python. Proporciona herramientas y estructuras para desarrollar aplicaciones web de manera rápida y eficiente. Algunas características clave incluyen su ORM (Object-Relational Mapping), manejo de URLs, autenticación, y un sistema de plantillas.
+
+Un framework es un conjunto de herramientas, guías y estructuras predefinidas que se utilizan para desarrollar y organizar software de manera eficiente. Funciona como una especie de "esqueleto" o plataforma base, sobre la cual los programadores y desarrolladores pueden construir y personalizar sus aplicaciones.
+
+ORM (Object-Relational Mapping) es una técnica de programación que permite convertir los datos de un lenguaje de programación orientado a objetos al formato utilizado en una base de datos relacional. Esta técnica facilita la interacción entre ambos sistemas y permite a los desarrolladores trabajar con objetos y clases en lugar de escribir consultas SQL.
 
 ## 2. Instalar Django (5 min)
 Antes de instalar Django, asegúrate de tener Python y pip instalados. Luego, sigue estos pasos:
