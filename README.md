@@ -13,7 +13,7 @@ Antes de instalar Django, asegúrate de tener Python y pip instalados. Luego, si
 
 ## 3. Iniciar un Proyecto (5 min)
 Crea un nuevo proyecto con el siguiente comando:
-`django-admin startproject nombre_del_proyecto`
+```django-admin startproject nombre_del_proyecto```
 Explora la estructura de directorios generada.
 
 ## 4. Iniciar el Servidor (5 min)
