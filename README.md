@@ -13,17 +13,23 @@ Antes de instalar Django, asegúrate de tener Python y pip instalados. Luego, si
 
 ## 3. Iniciar un Proyecto (5 min)
 Crea un nuevo proyecto con el siguiente comando:
-```django-admin startproject nombre_del_proyecto```
+```
+django-admin startproject nombre_del_proyecto
+```
 Explora la estructura de directorios generada.
 
 ## 4. Iniciar el Servidor (5 min)
 Para iniciar el servidor de desarrollo, ejecuta:
-`python manage.py runserver`
+```
+python manage.py runserver
+```
 Accede a la página de bienvenida de Django en tu navegador.
 
 ## 5. Crear una Aplicación y Configurar URLs (10 min)
 Crea una nueva aplicación con:
-`python manage.py startapp nombre_de_la_aplicacion`
+```
+python manage.py startapp nombre_de_la_aplicacion
+```
 Configura las URLs en `urls.py` del proyecto y la aplicación.
 
 En `urls.py` del proyecto:
@@ -77,7 +83,28 @@ DATABASES = {
     }
 }
 ```
-Aplica migraciones para crear la estructura de la base de datos.
+**comandos postgres**:
+crear rol:
+```
+CREATE USER sample_user WITH PASSWORD 'password';
+```
+otorgar permiso:
+```
+ALTER ROLE sample_uer CREATEDB;
+```
+para ver roles y permisos:
+```
+\du;
+```
+Crear base de datos con sample user:
+```
+CREATE DATABASE sample_database;
+```
+Aplica migraciones para crear la estructura de la base de datos:
+```
+python manage.py makemigrations
+python manage.py migrate
+```
 
 ## 9. CRUD (Create, Read, Update, Delete) (10 min)
 Breve explicación de cada operación. Agrega la aplicación en `INSTALLED_APPS`.
