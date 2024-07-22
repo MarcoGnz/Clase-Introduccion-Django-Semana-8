@@ -8,7 +8,7 @@ Antes de instalar Django, asegúrate de tener Python y pip instalados. Luego, si
 - Instala virtualenv: `pip install virtualenv`
 - Crea un entorno virtual: `python -m venv env_no_global`
 - Activa el entorno virtual: `.\env_no_global\Scripts\activate`
-- Instala Django: `pip install django`
+- Instala Django: `pip install Django==4.0`
 - Instala psycopg2 (para la conexión a PostgreSQL): `pip install psycopg2`
 
 ## 3. Iniciar un Proyecto (5 min)
