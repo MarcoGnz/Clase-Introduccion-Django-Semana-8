@@ -117,6 +117,19 @@ INSTALLED_APPS = [
     'nombre_de_la_aplicacion',
 ]
 ```
+Crear un modelo en app/models.py:
+```
+from django.db import models
+
+class Ejemplo(models.Model):
+    nombre = models.CharField(max_length=100)
+    descripcion = models.TextField()
+
+    def __str__(self):
+        return self.nombre
+
+```
+
 ## 10. Superusuario y Administrador de Páginas (5 min)
 Crea un superusuario con:
 ```
