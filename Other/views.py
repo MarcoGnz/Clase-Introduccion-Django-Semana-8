@@ -1,3 +1,5 @@
+#código comentado para una mejor comprensión:
+
 # Importaciones necesarias desde Django
 from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse
