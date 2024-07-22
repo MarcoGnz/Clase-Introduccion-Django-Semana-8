@@ -69,7 +69,8 @@ MTV es el patrón de diseño utilizado por Django:
 - **Plantilla (Template)**: Genera la salida HTML que ve el usuario.
 - **Vista (View)**: Actúa como intermediario entre el Modelo y la Plantilla.
   
-https://github.com/MarcoGnz/Prueba/blob/main/mtv.png
+<img width="1204" alt="mtv" src="https://github.com/user-attachments/assets/852e38f3-1757-4773-b7ac-96348df50f7b">
+
 
 ## 8. Conexión a una Base de Datos PostgreSQL (10 min)
 Configura la base de datos en `settings.py`:
